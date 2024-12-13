@@ -17,7 +17,7 @@ jobs:
       # Step 2: Install MySQL Client
       - name: Install MySQL Client
         run: sudo apt-get install -y mysql-client
-
+    
       # Step 3: Create ClimateData Table
       - name: Deploy Initial Schema
         env:
