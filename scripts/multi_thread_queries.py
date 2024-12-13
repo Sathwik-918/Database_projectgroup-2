@@ -8,7 +8,7 @@ DB_CONFIG = {
     'password': 'YOUR_DB_PASSWORD',
     'database': 'project_db'
 }
-     
+       
 def execute_query(query):
     try:
         conn = mysql.connector.connect(**DB_CONFIG)
